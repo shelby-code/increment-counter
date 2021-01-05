@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: cursive;
+    height: 100vh;
+    text-align: center;
+    color: rgb(248, 248, 248);
+    background-image: linear-gradient(to bottom, grey 0%, grey 50%, black 50%, black 100%);
+}
+
+.fab{
+    font-size: 45px;
+}
+
+.counter{
+    margin: 0 20px;
+}
+
+@media(max-width: 475px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .counter{
+        margin-bottom: 30px;
+    }
+}
